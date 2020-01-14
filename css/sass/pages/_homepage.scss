@@ -1,0 +1,204 @@
+//Main Content
+.main-content {
+  padding: 100px 0;
+
+  .fixed-news {
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 5px;
+    .img-box {
+      background-color: #dbe7f4;
+      text-align: center;
+      min-height: 180px;
+      img {
+        margin-top: 25%;
+      }
+    } //img-box
+
+    .latest-news-content {
+      margin-top: 15px;
+    }
+  } //fixed-news
+  /*Larg Content*/
+} //main-content
+
+
+
+/*Start Header*/
+.header {
+  background: url('../imgs/creative.jpg');
+  min-height: 10rem;
+  position: relative;
+}
+.overlay {
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0; 
+}
+.header .header-content {
+  padding-top: 4em;
+}
+.header .img-box {
+    width: 150px;
+    height: 150px;
+}
+.header .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.header .title h4 {
+  color: #fff;
+}
+
+.header .title span {
+  color: #bda461 !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.header .main-button button {
+  background-color: #bda461 !important;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+/*End Header*/
+
+/*Start Main Orders*/
+.top_steps ul li{
+  width: 19%;
+}
+.top_steps .t_step .t_step_icon{
+  width: 60px;
+  height: 60px;
+  background: #f3f3f1;
+  border-radius: 50%;
+  text-align: center;
+  color: #232f3f;
+  margin: auto;
+  display: table;
+  position: relative;
+  z-index: 9
+}
+.top_steps ul li .t_step .t_step_icon:after{
+  content: "";
+  position: absolute;
+  width: 181px;
+  height: 2px;
+  background: #dcdcdc;
+  top: 50%;
+  z-index: 1;
+  right: 100%;
+}
+
+.top_steps ul li .t_step .t_step_icon:before{
+  content: "";
+  position: absolute;
+  width: 181px;
+  height: 2px;
+  background: #dcdcdc;
+  top: 50%;
+  z-index: 1;
+  right: 100%;
+}
+
+.t_step > a{
+  display: contents;
+  width: 60px;
+  height: 60px;
+}
+.top_steps .t_step .t_step_icon i{
+  font-size: 18px;
+  line-height: 57px;
+}
+.t_step_icon .icon_edit{
+  display: none;
+}
+.top_steps .t_step .t_step_icon.active .icon_edit{
+  display: block;
+}
+.top_steps .t_step .t_step_icon.active .icon_done{
+  display: none;
+}
+.top_steps .t_step .t_step_icon.done{
+ background: #f99100;
+ border: 2px solid#f99100;
+}
+.top_steps .t_step .t_step_icon.done i{
+  color: #fff;
+}
+.top_steps .t_step .t_step_icon.done .icon_done{
+  display: block;
+}
+.top_steps ul li .t_step .t_step_icon.done:after{
+  background: #f99100 ;
+}
+.top_steps .t_step h3{
+  font-size: 16px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+/*End Main Orders*/
+
+
+/*Start All Data*/
+.all-data {
+
+}
+
+.all-data .heading {
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #cccaca;
+}
+
+
+.all-data .title {
+  color: #222;
+  float: right;
+}
+
+.all-data .main-button button {
+background-color: #5cb45c;
+color: #fff;
+font-weight: bold;
+color: #fff;
+float: left;
+}
+
+.main-content {
+  margin: 2rem;
+}
+
+.main-content .main-ul {
+  width: 70%;
+}
+
+.main-content .main-ul li {
+  background-color: #eee;
+}
+
+.main-content .main-ul h6 {
+  display: inline-block;
+    background-color: #cfd8dc;
+    margin: 0;
+    padding: 12px;
+    color: #696969;
+
+}
+.main-content .main-ul p {
+  display: inline-block;
+  margin: 0;
+  padding-right: 1rem;
+}  
+
+/*End All Data*/
+
